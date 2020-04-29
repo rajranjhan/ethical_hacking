@@ -17,6 +17,9 @@
     Host: nc  -nv [ip] [port] -e /bin/bash
 
 ## SoCat
+* Supports SSL communication
+    -use OPENSSL to create cert
+    
 
 ## Powercat
 Powershell version of Necat
