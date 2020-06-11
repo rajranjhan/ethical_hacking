@@ -180,7 +180,7 @@ If the file is owned by the root, it get executed with root priviliges, and we m
 
 Use following command to list files with SGID or SUID set
 ```
-find /-type f -a \(-perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null
+find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null
 ```
 Use https://gtfobins.github.io/ to find shell escape sequences
 
