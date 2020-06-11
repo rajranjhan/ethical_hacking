@@ -19,6 +19,7 @@ id
 
 ## Tools
 Linux Smart Enumeration and LinEnum
+https://github.com/diego-treitos/linux-smart-enumeration
 
 lse
 
